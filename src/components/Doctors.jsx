@@ -8,33 +8,33 @@ import { FaArrowRight } from "react-icons/fa";
 const Doctors = () => {
   const data = [
     {
-      img: "https://www.aflumed.co.za/wp-content/uploads/2024/03/Lubabalo-1.jpg",
-      name: "Dr. Lubabalo Myaka",
+      img: "https://th.bing.com/th/id/OIP.yvrquhHDVezbwA4m5mXl3QHaE8?w=269&h=180&c=7&r=0&o=5&pid=1.7",
+      name: "Dr. Zack Daniels",
       specialties: "Diabetic Manager",
     },
     {
-      img: "/src/assets/img/doc2.jpg",
+      img: "https://th.bing.com/th/id/OIP.4JLvriGyr3zPrSBMcHxMfQHaE8?w=249&h=180&c=7&r=0&o=5&pid=1.7",
       name: "Dr. Julian Bennett",
       specialties: "Cardiologist",
     },
     {
-      img: "/src/assets/img/doc3.jpg",
-      name: "Dr. Camila Rodriguez",
+      img: "https://th.bing.com/th/id/OIP.0VDNAnx6IfaAciaVIwG2jgHaE7?w=269&h=180&c=7&r=0&o=5&pid=1.7",
+      name: "Dr. Naledi Mokwena",
       specialties: "Pediatrician",
     },
     {
-      img: "/src/assets/img/doc4.jpg",
-      name: "Dr. Victor Nguyen",
+      img: "https://th.bing.com/th/id/OIP.6YiZB2e8aoJuLUBj38B7UwHaEK?w=256&h=180&c=7&r=0&o=5&pid=1.7",
+      name: "Dr. Nkosi Mabuza",
       specialties: "Neurologist",
     },
     {
-      img: "/src/assets/img/doc5.jpg",
-      name: "Dr. Ethan Carter",
+      img: "https://th.bing.com/th/id/OIP.l4gjJ_v5pAZFIfPgs68WpAHaE8?w=266&h=180&c=7&r=0&o=5&pid=1.7",
+      name: "Dr. Oratile Mokwena",
       specialties: "Dermatologist",
     },
     {
-      img: "/src/assets/img/doc6.jpg",
-      name: "Dr. Olivia Martinez",
+      img: "https://th.bing.com/th/id/OIP.SFS6hu5YqaPSf-JiqzcEgwHaE7?w=216&h=180&c=7&r=0&o=5&pid=1.7",
+      name: "Dr. Mpho Mabena",
       specialties: "Ophthalmologist",
     },
   ];

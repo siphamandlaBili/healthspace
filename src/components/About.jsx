@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../assets/img/about.jpg";
+
 
 const About = () => {
   return (
@@ -18,7 +18,12 @@ const About = () => {
 
       </div>
       <div className=" w-full lg:w-3/4">
-        <img className=" rounded-lg" src={img} alt="img" />
+      <img
+  className="rounded-lg w-full h-auto" // Adjust width to full and maintain aspect ratio
+  src={'https://th.bing.com/th/id/OIP.oxAv1EIolFE7Rlu4IQqH4QHaE7?w=291&h=193&c=7&r=0&o=5&pid=1.7'}
+  alt="img"
+/>
+
       </div>
     </div>
   );

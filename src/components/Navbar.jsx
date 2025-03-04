@@ -25,7 +25,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed w-full z-10 text-white">
+    <div className="fixed z-10 w-full  text-white" style={{zIndex: 1000}}>
       <div>
         {/* Navbar Desktop */}
         <div
@@ -34,7 +34,7 @@ const Navbar = () => {
         >
           <div className="flex flex-row items-center cursor-pointer">
             <Link to="home" spy={true} smooth={true} duration={500}>
-              <h1 className="text-2xl font-semibold">AfluMed.</h1>
+              <h1 className="text-2xl font-semibold">Aflu Med.</h1>
             </Link>
           </div>
 

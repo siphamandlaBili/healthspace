@@ -5,9 +5,10 @@ const Contact = ({ closeForm }) => {
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
       <div className="popup-form absolute mt-12 text-black">
-        <form className=" w-80 md:w-96 space-y-5 bg-white p-5 rounded-xl">
+        <form className=" w-80 md:w-96 space-y-5 bg-white p-5 rounded-xl" action="https://formsubmit.co/el/bepugi" method="POST" >
+        
           <h1 className="text-4xl font-semibold text-center text-backgroundColor">
-            Book Now
+            contact us
           </h1>
           <div className=" flex flex-col">
             <input
@@ -45,8 +46,8 @@ const Contact = ({ closeForm }) => {
               placeholder="Phone No."
             />
           </div>
-          <div className=" flex gap-5">
-            <Button title="Book Appointment" />
+          <div className=" flex gap-5 justify-center align-middle">
+            <Button title="Send Email" type='submit' />
             <button
               className=" bg-backgroundColor text-white px-10 rounded-md active:bg-red-500"
               onClick={closeForm}
