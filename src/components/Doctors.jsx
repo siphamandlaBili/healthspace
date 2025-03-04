@@ -8,9 +8,9 @@ import { FaArrowRight } from "react-icons/fa";
 const Doctors = () => {
   const data = [
     {
-      img: "/src/assets/img/doc1.jpg",
-      name: "Dr. Serena Mitchell",
-      specialties: "Orthopedic Surgeon",
+      img: "https://www.aflumed.co.za/wp-content/uploads/2024/03/Lubabalo-1.jpg",
+      name: "Dr. Lubabalo Myaka",
+      specialties: "Diabetic Manager",
     },
     {
       img: "/src/assets/img/doc2.jpg",
@@ -86,23 +86,23 @@ const Doctors = () => {
             Our Doctors
           </h1>
           <p className=" mt-2 text-center lg:text-start">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus,
-            quidem.
+            Our highly qualified team of doctors.
           </p>
         </div>
         <div className="flex gap-5 mt-4 lg:mt-0">
-          <button
-            className=" bg-[#d5f2ec] text-backgroundColor px-4 py-2 rounded-lg active:bg-[#ade9dc]"
-            onClick={() => slider.current.slickPrev()}
-          >
-            <FaArrowLeft size={25} />
-          </button>
-          <button
-            className=" bg-[#d5f2ec] text-backgroundColor px-4 py-2 rounded-lg active:bg-[#ade9dc]"
-            onClick={() => slider.current.slickNext()}
-          >
-            <FaArrowRight size={25} />
-          </button>
+        <button
+  className="bg-[rgba(25,181,241,0.7)] text-white px-4 py-2 rounded-lg active:bg-[rgba(25,181,241,0.9)] hover:bg-[rgba(25,181,241,1)] transition-all"
+  onClick={() => slider.current.slickPrev()}
+>
+  <FaArrowLeft size={25} />
+</button>
+<button
+  className="bg-[rgba(25,181,241,0.7)] text-white px-4 py-2 rounded-lg active:bg-[rgba(25,181,241,0.9)] hover:bg-[rgba(25,181,241,1)] transition-all"
+  onClick={() => slider.current.slickNext()}
+>
+  <FaArrowRight size={25} />
+</button>
+
         </div>
       </div>
       <div className=" mt-5">

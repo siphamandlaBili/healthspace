@@ -7,23 +7,15 @@ const About = () => {
       <div className=" w-full lg:w-3/4 space-y-4">
         <h1 className=" text-4xl font-semibold text-center lg:text-start">About Us</h1>
         <p className=" text-justify lg:text-start">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam
-          labore rerum tempore tenetur commodi natus quos itaque voluptatum
-          repudiandae nostrum accusantium vero voluptate aspernatur totam,
-          laboriosam aut, et quae consequatur?
+        Founded and registered in 2014 under the South African Companies Act 71 of 2008 as a proprietary limited company, by Lubabalo James Mnyaka, a Medical Microbiologist, and an award-winning health-tech entrepreneur. Aflu Med Healthcare represents a pivotal advancement in healthcare technology, addressing the critical need for comprehensive electronic health records and practice management systems in Africa. 
         </p>
         <p className="text-justify lg:text-start">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora quia
-          suscipit illum, numquam incidunt nostrum dolor officia doloremque
-          cupiditate, placeat explicabo sed iure atque neque quidem ipsam!
-          Dolor, minus reiciendis.
-        </p>
-        <p className="text-justify lg:text-start">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, illum.
-          Accusantium ab expedita veniam nobis aut, in rerum repellendus!
-          Exercitationem libero recusandae corrupti accusantium reiciendis in
-          placeat illo maxime ea.
-        </p>
+  Our team of skilled doctors provides high-quality care, ensuring every patient receives tailored treatment. We focus on combining medical expertise with compassionate care to meet the unique needs of each individual. By offering advanced medical services, we aim to improve health and well-being for all our patients.
+</p>
+<p className="text-justify lg:text-start">
+  Our healthcare professionals are committed to delivering the best possible outcomes through innovation and dedication. With a patient-centered approach, we offer comprehensive care that supports both physical and mental health. We ensure that our patients receive the attention and care they deserve, fostering long-term wellness.
+</p>
+
       </div>
       <div className=" w-full lg:w-3/4">
         <img className=" rounded-lg" src={img} alt="img" />
